@@ -117,8 +117,8 @@ def start_game():
     ball.color("white")
     ball.penup()
     ball.goto(0, 0)
-    ball.dx = 0.15
-    ball.dy = -0.15
+    ball.dx = 0.12
+    ball.dy = -0.12
 
     # Pen drawing scoreboard
     pen = turtle.Turtle()
